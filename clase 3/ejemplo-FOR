@@ -1,0 +1,3 @@
+for contador in range(1, 13):
+    print(f"5 x {contador} = {contador * 5}")   
+
