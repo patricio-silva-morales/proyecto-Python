@@ -1,14 +1,13 @@
 numeros = [1, 4, 6, 3, 2, 6, 8]
 
-# Forma eficiente
+# 1. Forma eficiente
 for elemento in numeros:
     print(elemento)
 
-# Forma ineficiente
+# 2. Forma ineficiente
 for i in range(len(numeros)):
     print(numeros[i])
 
-# Forma eficiente
+# 3. Forma eficiente
 for i, elemento in enumerate(numeros):
     print(numeros[i])
-    
