@@ -13,14 +13,16 @@ class Persona:
 persona1 = Persona("Ana", 30)
 persona2 = Persona("Mario", 25)
 
-persona1.presentarse()
-persona2.presentarse()
+print(persona1.edad)
+print(persona2.edad)
+
+persona2.edad = 40
 
 print(persona1.edad)
 print(persona2.edad)
 
-persona1.cumplir_anios()
-persona2.cumplir_anios()
+# Agrego atributo PROFESION directamente al objeto PERSONA1
+persona1.profesion = "Ingeniero"
 
-print(persona1.edad)
-print(persona2.edad)
+print(persona1.profesion)
+print(persona2.profesion)
