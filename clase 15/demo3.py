@@ -8,7 +8,7 @@ class Nadador:
     def moverse(self):
         print("El pato nada")
         
-class Pato(Nadador, Volador):
+class Pato(Volador, Nadador):
     
     pass
 

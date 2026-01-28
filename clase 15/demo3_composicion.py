@@ -10,6 +10,7 @@ class Nadador:
 
 class Pato:
     def __init__(self):
+        # Composición
         self.volador = Volador()
         self.nadador = Nadador()
 
