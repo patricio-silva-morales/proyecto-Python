@@ -19,7 +19,9 @@ class Gato(Animal):
     def __init__(self, nombre):
         super().__init__(nombre)
         
-      
+    def emitir_sonido(self):
+        print("Miau!!!")
+        
 perro1 = Perro("Bruce")
 gato1 = Gato("Don René")
 
