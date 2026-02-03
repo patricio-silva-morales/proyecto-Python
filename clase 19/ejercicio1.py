@@ -1,7 +1,7 @@
 import os # Necesario para usar os.stat()
 
 try:
-    nombre = input("Ingresa el nombre del archivo: ")
+    nombre = input("Ingresa el nombre del archivo: ").strip()
     archivo = open(nombre, "r", encoding="utf-8") # Abre archivo para lectura
 
     print("Nombre:", archivo.name)
